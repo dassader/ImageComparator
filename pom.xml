@@ -80,7 +80,7 @@
                     </goals>
                     <configuration>
                         <headerType>gui</headerType>
-                        <outfile>../application.exe</outfile>
+                        <outfile>application.exe</outfile>
                         <jar>target/${artifactId}-${version}-shaded.jar</jar> <!-- 'shaded' is the value set on shadedClassifierName above -->
                         <errTitle>App Err</errTitle>
                         <classPath>
