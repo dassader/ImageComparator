@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Result</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/cover.css"/>
+</head>
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="inner cover">
+                <h1 class="cover-heading">Result</h1>
+            </div>
+        </div>
+        <div class="col-md-offset-4 col-md-4 form-group">
+            <img class="img-responsive" th:src="${image_base_64}"/>
+        </div>
+        <div class="cover-container">
+            <div class="inner cover">
+                <p class="lead">
+                    <a href="/" class="btn btn-lg btn-default">Back</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="/js/bootstrap.min.js"></script>
+</html>

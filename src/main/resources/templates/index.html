@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Compare two images</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/cover.css"/>
+</head>
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="inner cover">
+                <h1 class="cover-heading">Compare your images.</h1>
+                <p class="lead">Select images and push button.</p>
+
+                <form action="/image/compare" method="POST" enctype="multipart/form-data">
+                    <div class="col-lg-4 col-lg-offset-4 form-group">
+                        <label for="firstFile">First file</label>
+                        <input type="file" id="firstFile" name="firstImage"/>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-4 form-group">
+                        <label for="secondFile">Second file</label>
+                        <input type="file" id="secondFile" name="secondImage"/>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <p class="lead">
+                            <button type="submit" class="btn btn-lg btn-default">Do compare</button>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="/js/bootstrap.min.js"></script>
+</html>
