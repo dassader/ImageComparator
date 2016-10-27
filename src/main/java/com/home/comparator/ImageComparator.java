@@ -18,7 +18,7 @@ import static java.lang.Math.min;
 @Component
 public class ImageComparator {
 
-    public static final int MAX_DISTANCE_FROM_POINT_TO_AREA = 1000;
+    public static final int MAX_DISTANCE_FROM_POINT_TO_AREA = 100;
     public static final int MAX_PERCENT_OF_DIFFERENT = 10;
     public static final String FORMAT_OF_OUTPUT_IMAGE = "png";
 
